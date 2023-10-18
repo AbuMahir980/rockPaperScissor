@@ -26,7 +26,8 @@ const rockPaperScissor = function(playerSelection, computerSelection) {
 
 //play 5 round of game
 const game = function() {
-    for(let i = 0; i < 5; i++){//
+    //create a loop to make 5 round of game
+    for(let i = 0; i < 5; i++){
         let playerSelection = prompt("Rock, Paper, or Scissors ?, insert your choice here...").toLowerCase();
 
     }
